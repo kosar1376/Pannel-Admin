@@ -1,0 +1,115 @@
+.singleuser {
+  display: flex;
+
+  .singleUserContainer {
+    flex: 6;
+
+    .container11 {
+      display: flex;
+      padding: 35px;
+      gap: 20px;
+      margin-top: 10px;
+
+      .infoBox {
+        flex: 1;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        box-shadow: inset 3px 5px 10px 1px rgba(201, 201, 201, 0.47),
+          inset -2px -5px 10px 1px rgba(201, 201, 201, 0.47);
+        padding: 20px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+
+        img {
+          width:90%;
+          height: 60%;
+          border-radius: 50%;
+          object-fit: cover;
+          margin: 15px;
+          box-shadow: 3px 5px 10px 1px rgba(169, 168, 168, 0.47);
+        }
+
+        .info {
+          padding: 15px;
+          margin: 20px;
+          display: flex;
+          flex-direction: column;
+          gap: 25px;
+
+          .infoDetail {
+            display: flex;
+            gap: 5px;
+
+            .icon {
+              width: 25px;
+              color: #7451f8;
+              margin-right: 5px;
+            }
+
+            h5 {
+              font-size: 14px;
+              font-weight: bold;
+            }
+
+            div{
+              color: rgb(133, 132, 132);
+              font-size: 14px;
+            }
+          }
+        }
+      }
+
+      .editBox {
+        flex: .5;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        box-shadow: inset 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+        padding: 20px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+
+        img{
+          width: 200px;
+          height: 200px;
+          border-radius: 50%;
+          margin: 20px;
+          box-shadow:2px 4px 10px 1px rgba(201, 201, 201, 0.47); ;
+        }
+
+        form{
+          display: flex;
+          gap: 25px;
+          flex-direction: column;
+
+          input{
+            border: 1px solid rgba(0,0,0,0.1);
+            border-radius: 10px;
+            box-shadow:inset 2px 4px 10px 1px rgba(201, 201, 201, 0.47); 
+            padding: 3px 6px;
+
+          }
+
+          label{
+            font-size: 14px;
+            font-weight: bold;
+            font-style: italic;
+          }
+
+          button{
+            border: none;
+            padding: 6px;
+            border-radius: 8px;
+            background-color:#7451f8 ;
+            color: white;
+            font-weight: bold;
+            font-size: 14px;
+          }
+        }
+
+
+      }
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "image": "https://img.freepik.com/premium-photo/young-handsome-man-with-beard-isolated-keeping-arms-crossed-frontal-position_1368-132662.jpg?w=1060",
+      "firstname": "Hiva",
+      "lastname": "Rian",
+      "email": "Hivaas@gmail.com",
+      "phone": "1-657-564-876755",
+      "username": "HIVA-RIAN",
+      "password": "090-u1274567"
+    },
+    {
+      "id": 2,
+      "image": "https://img.freepik.com/free-photo/portrait-handsome-european-male-student-has-gentle-smile-face-happy-hear-pleasant-news-stands-delighted-wears-round-spectacles-orange-jumper_273609-45004.jpg?w=1060&t=st=1667254057~exp=1667254657~hmac=d20a69dfac4410eb5e3fe8a8f9f1a258a5f172ad97f4729192bfda6d6d2ad7cd",
+      "firstname": "Nicolas",
+      "lastname": "Rian",
+      "email": "nikolas@gmail.com",
+      "phone": "1-657-564-88755",
+      "username": "NICOL-RIAN",
+      "password": "090-u12767"
+    },
+    {
+      "id": 3,
+      "image": "https://img.freepik.com/free-photo/handsome-confident-smiling-man-with-hands-crossed-chest_176420-18743.jpg?w=1060&t=st=1665080087~exp=1665080687~hmac=e4e77be60f6b66aeb631672b60e156cb418a429c7177970467ca4100fd7cbb57",
+      "firstname": "Ray",
+      "lastname": "Rian",
+      "email": "Ray@gmail.com",
+      "phone": "1-657-564-8455",
+      "username": "RAY-RIAN",
+      "password": "090-u127"
+    },
+    {
+      "id": 5,
+      "image": "https://img.freepik.com/free-photo/pleasant-looking-serious-blonde-woman-with-long-hair-wears-blue-casual-sweater_273609-17050.jpg?size=626&ext=jpg&ga=GA1.2.1791978693.1661458259",
+      "firstname": "Dave",
+      "lastname": "Mash",
+      "email": "Dave@gmail.com",
+      "phone": "1-768-123-456",
+      "username": "DAVE-MASH",
+      "password": "786-u123"
+    },
+    {
+      "id": 6,
+      "image": "https://img.freepik.com/free-photo/smiling-female-business-leader-with-arms-crossed_1262-3089.jpg?size=626&ext=jpg&ga=GA1.2.1791978693.1661458259",
+      "firstname": "Rahin",
+      "lastname": "Rashy",
+      "email": "Rahin@gmail.com",
+      "phone": "1-869-564-3456",
+      "username": "RAHIN-RASHY",
+      "password": "337-u123"
+    },
+    {
+      "id": 9,
+      "image": "https://img.freepik.com/free-photo/portrait-woman-smiling-camera_23-2148255220.jpg?w=360&t=st=1665561296~exp=1665561896~hmac=30ef9d554e308b53dbb0b5b6b8952c2b11842fcf97ce4df33d0246b2f007375d",
+      "firstname": "Nancy",
+      "lastname": "Veine",
+      "email": "Nancy@gmail.com",
+      "phone": "1-657-56544-7564",
+      "username": "NANCY-VEINE",
+      "password": "090-u432547"
+    },
+    {
+      "id": 10,
+      "image": "https://img.freepik.com/free-photo/portrait-beautiful-young-woman-standing-grey-wall_231208-10760.jpg?w=1060&t=st=1665416298~exp=1665416898~hmac=2c8c7d7f77064b84ef38a42f5c8690dc9fbb15edc92d3dde394af49367b49b8e",
+      "firstname": "Nikol",
+      "lastname": "Bird",
+      "email": "Nikol@gmail.com",
+      "phone": "1-657-56454-7564",
+      "username": "NIKOL-BIRD",
+      "password": "09054-u4327"
+    }
+  ]
+}

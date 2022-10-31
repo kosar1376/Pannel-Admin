@@ -1,0 +1,94 @@
+.widjetSm{
+    flex: 1;
+    box-shadow: 2px 4px 10px 1px  rgba(201, 201, 201, 0.47);
+    padding: 20px;
+    margin-right: 20px;
+    background-color: rgb(242, 239, 239);
+    border-radius: 20px;
+
+    .widjetSmTitle{
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    .widjetSmList{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        
+
+
+        .widjetSmListItem{
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 20px 0;
+
+
+            .widjetsmimg{
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                object-fit: cover;
+                transition: all .2s;
+            }
+
+            .widjetsmimg:hover{
+                transform: scale(2,2);
+
+            }
+
+
+            .widjetSmUser{
+                display: flex;
+                flex-direction: column;
+
+
+                .widjetSmUsername{
+                    font-weight: 600;
+                }
+
+
+                .widjetSmUserTitle{
+                    font-weight: 300;
+                    color:#aaa
+                }
+            }
+
+            .widjetSmbtn{
+                display: flex;
+                align-items: center;
+                border: none;
+                border-radius: 10px;
+                padding: 7px 10px;
+                background-color: #eeeef7;
+                color: #555;
+                cursor: pointer;
+                transition: all .2s;
+
+              
+
+                .widjetsmicon{
+                    font-size: 16px;
+                    margin-right: 5px;
+                }
+            }
+
+            .widjetSmbtn:hover{
+                transform: scale(1.3,1.3);
+                
+            }
+
+
+
+        }
+
+
+
+      
+
+    }
+
+  
+}

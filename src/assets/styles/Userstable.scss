@@ -1,0 +1,134 @@
+ .loadingtext{
+   font-size: 40px;
+   color:#7451f8 ;
+   text-align: center;
+   margin-top: 5px;
+  
+ }
+
+ .errortext{
+   font-size: 40px;
+   color: crimson;
+   text-align: center;
+   margin-top: 10px;
+ }
+
+.userdatatable {
+  height: 710px;
+  padding: 35px;
+  margin-top: 10px;
+  margin-bottom: 200px;
+  display: flex;
+  flex-direction: column;
+ 
+
+  
+
+  .table1{
+    border:1px solid rgba(0,0,0,0.1);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    border-radius: 10px;
+    // background: linear-gradient(to right, #1c92d2, #f2fcfe);
+    // background: linear-gradient(to right, #007991, #78ffd6);
+    // background: linear-gradient(to right, #4ac29a, #bdfff3);
+    background: linear-gradient(to right, #e8cbc0, #636fa4);
+    
+    
+
+  }
+  .CreateNewUser {
+    width: 180px;
+    border: 1px solid rgba(0, 0, 0,0.1);
+    padding: 5px ;
+    margin-bottom: 10px;
+    cursor: pointer;
+    margin-bottom: 8px;
+    border-radius: 3px;
+    background-color: #7551f836;
+    color: #7451f8;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 10px;
+    transition: all .3s;
+  }
+
+  .CreateNewUser:hover{
+    transform: scale(1.2,1.2);
+  }
+
+  .cellheader {
+    font-size: 17px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    // color: rgb(141, 139, 139);
+  }
+
+  .hover:hover{
+    background-color: rgb(222, 220, 220);
+    
+  }
+
+  .cell {
+    font-size: 14px;
+    text-align: center;
+    border-bottom: none;
+  }
+
+ 
+
+  .cellwithimg {
+    display: flex;
+    align-items: center;
+
+    .image {
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+  }
+
+  .buttonwrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-bottom: none;
+
+    .edituser {
+      display: flex;
+      align-items: center;
+      border-radius: 5px;
+      cursor: pointer;
+      padding: 3px;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      background-color: #0aabab;
+      color: white;
+
+      .editicon {
+        font-size: 18px;
+      }
+    }
+
+    .deleteuser {
+      display: flex;
+      align-items: center;
+      border-radius: 5px;
+      cursor: pointer;
+      padding: 3px;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      background-color: crimson;
+      color: white;
+
+      .editicon {
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+  .bb{
+    color: #7451f8;
+    background-color: black;
+  }

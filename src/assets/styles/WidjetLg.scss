@@ -1,0 +1,72 @@
+.widjetlg{
+    flex: 2;
+     box-shadow: 2px 4px 10px 1px  rgba(201, 201, 201, 0.47);
+    padding: 20px;
+    border-radius: 20px;
+
+    .widjetlgtitle{
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    .widjetlgtable{
+        width: 100%;
+        border-spacing: 20px;
+
+        .widjetlgth{
+            text-align: left;
+        }
+
+        .widjetlgUser{
+            display: flex;
+            align-items: center;
+            font-weight: 600;
+
+
+        }
+
+        
+        .widjetlgDate,.widjetlgamount{
+            font-weight: 100;
+        }
+
+
+
+
+
+        .widjetlgimg{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 10px;
+        }
+    
+    
+        .widjetlgbtn{
+            padding: 5px 7px;
+            border: none;
+            border-radius: 10px;
+        }
+    
+        .widjetlgbtn.Approved{
+            background-color: #e5faf2;
+            color: #3bb077;
+    
+        }
+    
+        .widjetlgbtn.Pending{
+            background-color: #ebf1fe;
+            color: #2a7ade;
+        }
+    
+        .widjetlgbtn.Declined{
+            background-color:#fff0f1;
+            color: #d95087;
+        }
+    }
+
+  
+
+
+}

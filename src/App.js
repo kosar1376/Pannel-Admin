@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Home from "./pages/Home";
+import Login from "./pages/Login";
+import Users from "./pages/Users";
+import SingleUser from "./pages/SingleUser";
+import Newuser from "./pages/Newuser";
+import PageNotFound from "./pages/PageNotFound";
+import { Route, Routes } from "react-router-dom";
+import { ToastContainer } from "react-toastify";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Routes>
+        <Route path="*" element={<PageNotFound />} />
+        <Route path="/">
+          <Route index element={<Login />} />
+          <Route path="home" element={<Home />} />
+          <Route path="users">
+            <Route index element={<Users />} />
+            <Route path=":userid" element={<SingleUser />} />
+            <Route path="new" element={<Newuser />} />
+          </Route>
+        </Route>
+     
+      </Routes>
+
+      <ToastContainer />
     </div>
   );
-}
+};
 
 export default App;
